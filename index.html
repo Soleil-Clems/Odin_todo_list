@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Todo_List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>My Todo List</h1>
+        <div class="toDOList">
+            <div class="formDiv">
+                <p class="title">Creer une tâche</p>
+                <form action="">
+                    <input type="text" class="input" name="" placeholder="Title of task" id="title">
+                    <span>Element must not be empty !!!</span>
+                    <input type="text" class="input" name="" placeholder="Description of task" id="description">
+                    <span>Element must not be empty !!!</span>
+                    <input type="datetime-local" class="input" name="" id="date">
+                    <span>Element must not be empty !!!</span>
+                    <input type="submit" value="Add" name="" id="submit">
+                </form>
+            </div>
+            <div class="toDo">
+                <p class="title">A faire</p>
+                <div id="cards">
+
+                </div>
+            </div>
+            <div class="done">
+                <p class="title">Finie</p>
+                <div id="doneList"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
